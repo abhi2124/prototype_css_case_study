@@ -1,0 +1,417 @@
+.container{
+
+             width: 100%;
+
+             margin: 0 auto;
+           }
+.header.container{
+             background-image: url(../images/background-header.jpg);
+             text-align: center;
+             box-shadow: 1 1 #000;
+              height: 400px;
+            width: 100%;
+          }
+
+ li{
+
+            font-size:24px
+ }                             
+
+ .container.main-content{
+            padding-top: 10px;
+            flex :2;
+            display: flex;
+            justify-content: center;
+            height :1050px;
+            background : #f4f7ef;
+            }
+.main-content.left{
+        
+            flex-basis: 80%;
+            background : #f4f7ef;
+            flex-direction: column;
+            display: flex;
+  }
+
+
+.inner-heading{
+  letter-spacing: .10em;
+  font-family: fantasy;
+  font-size: 20px;
+ 
+  background-color: 
+         }
+ .row-one{
+   height:350px;
+
+  }
+.news {
+display: flex;
+height: 100px;
+}
+
+.newsContent {
+font-family:Trebuchet MS;
+flex: 2;
+width: 360px;
+}
+.news-value{
+  font-family: monospace;
+}
+.newsContentDate {
+font-color:#D3D3D3;
+flex: 0.5;
+font-size:35px;
+}
+
+.newsContentMonth {
+flex: 1.5;
+font-size:10px;
+
+}
+
+.newsContentImage {
+flex: 0.5;
+width: 190px;
+height: 75px;
+}
+
+
+ .row-two{
+   padding-top: 5px;
+      height:350px;
+       flex :2;
+       display: flex;
+      justify-content: center;
+         }
+
+.library-left{
+   flex-basis: 50%;
+   position: relative;
+   justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/makeithappennow.jpg");
+
+
+   display: flex;
+  
+
+  }
+
+#dot1{
+  position: absolute;
+  left: 5px;
+  color: black;
+  bottom: 10px;
+
+}
+#dot2{
+  position: absolute;
+   left: 25px;
+   color: #dad3d3;
+  bottom: 10px;
+
+}
+
+#dot3{
+  position: absolute;
+   left: 45px;
+   color: #dad3d3;
+  bottom: 10px;
+
+}
+  .library-right{
+     flex-basis: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   }
+ .library-content-up{
+      height: 180px;
+     background-image: url("../images/book1.jpg");
+       }
+
+ .library-content-bottom{
+  display: flex;
+   }
+ .library-content-bottom-one{
+      font-family:  cursive;
+      margin-top: 5px;
+      border-right: solid;
+      border-width: thin;
+      position: relative;
+      color: black;
+      background-color: #e4ded8;
+      height:100px;
+      flex:1;
+ }
+ .library-content-bottom-two{
+      font-family:  cursive;
+      margin-top: 5px;
+      color: black;
+      background-color:#f4f7ef;
+      position: relative;
+      height: 100px;
+      flex:1;
+ }
+ .date{
+  font-family:  fantasy;
+  position: absolute;
+   left: 0; 
+  bottom: 10px;
+ }
+  .row-three{       
+   height:350px;
+   background : white;
+    display: flex;
+       }
+.third-row-heading{
+  letter-spacing: .10em;
+ padding-top: 10px;
+ font-family: fantasy;
+}
+#circle-one{
+  padding-top: 10px;
+  font-size: 10px;
+  position: absolute;
+  right: 20px;
+  color: #a09595;
+  top: 10px;
+
+}
+#circle-two{
+  padding-top: 10px;
+  font-size: 10px;
+  position: absolute;
+   right: 35px;
+   color: #a09595;
+  top: 10px;
+
+}
+
+#circle-three{
+  padding-top: 10px;
+  font-size: 10px;
+  position: absolute;
+   right: 55px;
+   color: #a09595;
+  top: 10px;
+
+}
+
+ .story{
+  position: relative;
+     flex:1;
+     flex-basis: 50%;
+      flex-direction: column;
+       display: flex;
+        font-size: 20px;
+         }
+
+.story-child{
+    height:100px;
+    display: flex;
+    flex-direction: column;
+     }
+.child-story-heading{
+  font-family: cursive;
+  font-weight:bold;
+ font-size: 15px;
+  padding-left: 5px;
+  flex:1;
+ 
+}
+ .date-story{
+  font-style: italic;
+  padding-left: 5px;
+  flex:1;
+    font-size: 12px;
+  font-family: sans-serif;
+
+ }
+.story-content{
+  padding-left: 5px;
+  font-size: 12px;
+  flex:1;
+  
+}
+
+/*Right Section-------------------*/
+
+ .main-content.right{
+    flex-basis: 20%;
+    flex-direction: column;
+    display: flex;
+
+              }
+
+.right-inner-heading{
+    letter-spacing: .10em;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 23px;
+}
+
+.right-first{
+    font-family: monospace;
+    flex: 1;
+    padding-top: 5px;
+}
+.right-second{
+  font-family: monospace;
+   padding-top: 5px;
+  flex: 1;
+}
+.right-third{
+
+ padding-top: 5px;
+ font-family: monospace;
+  flex: 1;
+
+}
+.right-fourth{
+ padding-top: 5px;
+ font-family: monospace;
+ background-repeat: no-repeat;
+ background-image: url("../images/download.jpg");
+ flex:1;
+
+ 
+}
+
+.button{
+      padding-left: 20px;
+    background-color: #d0dad7;
+    color: #131111;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 30px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.read-more-div{
+  padding-bottom: 15px;
+      margin-left: 40px;
+}
+/*--------------Footer-----------------*/
+ footer{
+     padding: 1em;
+    color: #fbfbfb;
+    background-color: #020202;
+    clear: left;
+    display: flex;
+ }
+
+.footer-social{
+  flex:1;
+  padding-left: 20px;
+}
+.button{
+        /* padding-left: 20px; */
+    background-color: #d0dad7;
+    /* color: #131111; */
+    padding: 8px 30px;
+    margin: 0px 0;
+    border: none;
+    border-radius: 30px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.send-class{
+ padding-left: 80px
+  flex:1;
+   
+}
+.footer-content{
+    flex:1;
+    padding-right: 140px;
+
+}
+/*---------------Header, Navigation----------------------*/
+.navigation {
+margin-left: 40px;
+font-size: 15px;
+}
+
+.menu {
+color: #fdfeff;
+padding: 20px;
+}
+
+.login-signup {
+      color: #fdfeff;
+display: inline-block;
+  height: 50px;
+  background: #c7ad90;
+  transition: all 0.6s; 
+  padding-left: 20px;
+  padding-right: 20px; 
+  line-height: 50px; 
+  border-radius: 40px;
+  margin-left: 100px;
+}
+
+
+.discover {
+     color: black;
+    display: inline-block;
+    height: 50px;
+    background: #c7ad90;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 50px;
+    margin-right: 900px;
+
+}
+
+.headerText{
+  color: white;
+ padding-right: 850px;
+margin-top:100px;
+padding-left: 50px;
+}
+.circle{
+margin-right: 1000px;
+height:10px;
+}
+
+.what-new{
+font-family:cursive;
+font-size:x-large;
+}
+.dateRoundOne{
+height:5px;
+width:40px;
+margin-top: 15px;
+}
+
+.dateRoundTwo{
+height:5px;
+width:40px;
+margin-top: 25px;
+}
+
+.dateRoundThree{
+height:5px;
+width:40px;
+margin-top: 25px;
+}
+.footer-social a{
+  padding-left: 20px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+h3{
+  font-family: cursive;
+}
